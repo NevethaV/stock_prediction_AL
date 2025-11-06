@@ -1,12 +1,1 @@
-# stock_prediction_AI
-import numpy as np
-import pandas as pd
-import yfinance as yf
-import streamlit as st
-from sklearn.naive_bayes import GaussianNB
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, GRU, Dense
-import matplotlib.pyplot as plt
-
+This project, "Robust Event Prediction with Sentiment Integration," focuses on enhancing stock market prediction accuracy by integrating advanced machine learning models and sentiment analysis. The system leverages a hybrid deep learning architecture combining Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) models to capture complex temporal and spatial patterns in historical stock data. It incorporates news sentiment analysis, using multiple algorithms (including Naive Bayes) to evaluate the impact of financial news and social media in real time. Robust data preprocessing ensures high-quality inputs and mitigates noisy or incomplete data issues. The event-driven analysis module enables the system to respond dynamically to sudden market changes such as political events, natural disasters, or economic shifts. Real-time prediction capabilities are provided through a Streamlit web application, allowing users to interactively select stocks and date ranges while visualizing model performance. The solution emphasizes adaptability, improved prediction accuracy, and comprehensive market insights, making it a valuable tool for investors and analysts operating in volatile financial environments.
